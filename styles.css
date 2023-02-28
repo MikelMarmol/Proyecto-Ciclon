@@ -1,0 +1,72 @@
+body{
+    background-image: url("./imagenes/San\ lorenzo\ 4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{ color: antiquewhite;}
+h4{ 
+    color: antiquewhite;
+    font-size: 20px;
+}
+.himno{
+    width:400px ;
+    text-align: center;
+    margin-top: 25%;
+    }
+button{ 
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.plateaypopular{
+    width:400px ;
+    text-align: center;
+    margin-top: 10%;
+}
+   
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+    }
+
+    .señoressoydeboedo{
+        width:400px ;
+        text-align: center; 
+        margin-top: 10%;
+    }
+
+    .matador{
+        width:400px ;
+        text-align: center;
+        
+          
+    }
+
+    .gitana{
+        width:400px ;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    .todosdelacabeza{
+        width:400px ;
+        text-align: center;
+        margin-top: 5%;
+        
+    }
+
+    hr{ 
+        width:600px ;
+        margin-top: 20px;
+    }
