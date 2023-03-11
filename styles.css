@@ -2,6 +2,7 @@ body{
     background-image: url("./imagenes/San\ lorenzo\ 4.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    margin:0px;
 }
 h1{ color: antiquewhite;}
 h4{ 
@@ -27,7 +28,7 @@ a{
 .plateaypopular{
     width:400px ;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 250px;
 }
    
 
@@ -49,6 +50,7 @@ a{
     .matador{
         width:400px ;
         text-align: center;
+        margin-top: 20px;
         
           
     }
@@ -69,4 +71,163 @@ a{
     hr{ 
         width:600px ;
         margin-top: 20px;
+    }
+
+    img{
+    height:90%;
+    width:100%;  
+    margin-top: -85px;
+   }
+   .sinmargen{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   .cartel{
+    font-size: 90px;
+    color: aliceblue;
+    background-color :#161B54; 
+    margin-top: -5px;
+   }
+   .movimiento{
+    width: 90px;
+    margin-top: 5px;
+   }
+
+   b{
+    color: aliceblue;
+    margin: 40px;
+    position: relative;
+    top: -15px;
+    }
+
+    .etiquetas {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        font-size: 20px;
+        text-align: center;
+        background-image: linear-gradient( rgba(14, 20, 49, 0.5),rgba(28, 29, 96, 0.5)), url("imagenes/etiquetas\ fondo.webp");
+        height: 80px;
+        align-items: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .botonpadding{
+        margin: 10px 20px;
+    }
+
+    table{
+        margin-top: 3%;
+        border-collapse: collapse;
+        border: black 2px solid;
+        background-color: white;
+        justify-content:space-around;
+        align-items: center;
+        margin-left: 10%;
+    }
+        
+    
+    
+    tr{
+        border-collapse: collapse;
+        border: black 2px solid;
+        text-align: center; 
+        background-color: aliceblue;
+        color: black;
+    }
+
+    td{
+        border-collapse: collapse;
+        border: black 2px solid;
+        text-align: justify;
+    }
+
+    .fixture{
+        border-collapse: collapse;
+        border: black 2px solid;
+        color: black;
+        text-align: center;
+        background-color: aliceblue;
+        
+    }
+
+    .ganador{
+        background-color: green;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .derrota{
+        background-color: red;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .empate{
+        background-color: yellow;
+        color: black;
+        text-align: center;
+    }
+
+    .imagenestabla{
+        width: 15px;
+        
+    }
+    
+    .localyvisitante{
+        text-align: center;
+    }
+
+    .libertadores{
+        background-color: #5EE52B;
+        color: black;
+        text-align: center;
+        width: 19%;
+        margin-left: 42%;
+        margin-top: 3px;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .sudamericana{
+        background-color: yellow;
+        color: black;
+        text-align: center;
+        width: 19%;
+        margin-left: 42%;
+        margin-top: -21px;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .decenso{
+        background-color: #E52B2B;
+        color: black;
+        text-align: center;
+        width: 19%;
+        margin-left: 42%;
+        margin-top: -21px;
+        text-align: justify;
+        font-size: 16px;
+     }
+
+     .promiedos{
+        background-color: #E52B2B;
+        color: black;
+        text-align: center;
+        width: 19%;
+        margin-left: 70%;
+        margin-top: -78px;
+        text-align: justify;
+        font-size: 16px;
+     }
+
+    .tablas{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
     }
